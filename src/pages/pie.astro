@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro"
+import pieData from "../../src/data/PIE.json"
+---
+
+<Layout>
+ {pieData.map((item) => (
+      <div class="bg-tarjeta flex flex-col mx-100 py-5 my-5 rounded-lg justify-center items-center">
+        <h2>{item.titulo}</h2>
+        {item.textoPIE && <p>{item.textoPIE}</p>}
+        {item.image && <img src={item.image} alt={item.titulo} style="max-width: 300px;" />}
+        {item.profesores && (
+          <ul>
+            {item.profesores.map((profesor) => (
+              <li>{profesor}</li>
+            ))}
+          </ul>
+        )}
+      </div>
+    ))}
+</Layout>   

@@ -1,0 +1,26 @@
+@import '@fontsource-variable/open-sans';
+@import '@fontsource-variable/roboto';
+@import "tailwindcss";
+/* 3. TUS VARIABLES DE TEMA */
+@theme {
+  --font-variable: 'Open Sans Variable', sans-serif;
+  --font-roboto: 'Roboto Variable', sans-serif;
+  --color-blanco: #ffffff;
+  --color-azul-oscuro: #34495e;
+  --color-verde-neon: #8EE000;
+  --color-morado: #6B2A8C;
+  --color-body: #3B3758;
+  --color-gris-oscuro: #333333;
+  --color-rojo: #E53935;
+  --color-amarillo: #FFB300;
+  --color-border-card: #1A4B5C;
+  --color-fondo: #F5F5DC;
+  --color-tarjeta: #D2B48C;
+
+}
+
+@layer components {
+  .logo {
+    @apply flex flex-row justify-between items-center h-[100px];
+  }
+}

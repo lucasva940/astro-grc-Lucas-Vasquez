@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro"
+import asistentesData from "../../src/data/asistentes.json"
+---
+
+<Layout>
+ {asistentesData.map((item) => (
+      <div class="bg-tarjeta flex flex-col mx-100 py-5 my-5 rounded-lg justify-center items-center">
+        <h2>{item.titulo}</h2>
+        {item.textoAsistentes && <p>{item.textoAsistentes}</p>}
+        {item.image && <img src={item.image} alt={item.titulo} style="max-width: 300px;" />}
+        {item.profesores && (
+          <ul>
+            {item.profesores.map((profesor) => (
+              <li>{profesor}</li>
+            ))}
+          </ul>
+        )}
+      </div>
+    ))}
+</Layout>   

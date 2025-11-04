@@ -1,0 +1,18 @@
+---
+import { Image } from "astro:assets";
+import milton from "/public/imagenes/luis/milton.jpg";
+import TarjetaNormal from "../components/tarjetanormal.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+    <TarjetaNormal 
+    titulo="Mensaje de Dirección"
+  >
+    <p class="text-opensans text-black leading-relaxed">
+     Dirección El Director del Liceo tiene como principal responsabilidad, orientar la ejecución del proyecto institucional y aplicar las decisiones del gobierno escolar; velar por el cumplimiento de las funciones docentes y el oportuno aprovisionamiento de los recursos necesarios para el efecto; promover el proceso continuo de mejoramiento de la calidad de la educación en el establecimiento y mantener activas las relaciones con las autoridades educativas y con la comunidad local, para el continuo progreso académico de la institución y el mejoramiento de la vida comunitaria.
+milton soto <br> <br> Nombre Completo: Milton Luis Soto Pérez
+       <Image src={milton} alt="Logo de mi sitio" class="w-50" />
+</TarjetaNormal>
+    
+</Layout> 

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "titulo": "Equipo P.I.E.",
+        "textoPIE":"El Equipo P.I.E. (Programa de Integración Escolar) forman parte de una estrategia inclusiva del sistema escolar cuyo objetivo principal es entregar apoyos a los estudiantes que presentan Necesidades Educativas Especiales (NEE), ya sea transitorias o permanentes, con el fin de equiparar oportunidades para su participación y progreso en los aprendizajes del curriculum nacional, y a través de ello contribuir al mejoramiento de la enseñanza para la diversidad de todo el estudiantado.",        
+        "image" : "/imagenes/PIE/integracion.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "Coordinadora P.I.E:",
+        "profesores": [ "María José Cortés"
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Coordinadora P.I.E:",
+        "profesores": [ "Ramón Contreras", "María Ercilia Vera", "Bárbara Hidalgo", "Claudia Jiménez", "Paula Urra", "Chester Weeks", "Katherine Cancino", "Nicole Mariman"
+        ]
+    },
+    {
+        "id": 4,
+        "titulo": "Coordinadora P.I.E:",
+        "profesores": [ "José Cárdenas, Jacqueline Hurtado"
+        ]
+    }
+]

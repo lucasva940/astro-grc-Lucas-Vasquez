@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "titulo": "Asistentes de la Educación",
+        "textoAsistentes":"Este estamento se conforma por administrativos, auxiliares de servicio, inspectores y profesionales. Este grupo humano contribuye en la formación personal de los estudiantes del liceo y a los objetivos y principios propuestos en el Proyecto Educativo Institucional.",        
+        "image" : "/imagenes/asistentes/asistentes.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "Secretaría:",
+        "profesores": [ "Ana María Andrade", "Alejandra Román", "Ximena Soto"
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Inspectores de Pasillo:",
+        "profesores": ["Rosa Aguilera","Jorge Miranda","Minerva Neumann","Marisa Mendez","Hugo Ramos","Hugo Torres","Patricia Vargas","Alejandra Espinoza","Claudia Osorio","Patricio Valenzuela"      ]
+    },
+    {
+        "id": 4,
+        "titulo": "Auxiliares:",
+        "profesores": [ "Luis Felmer","Rosa Nahuelneri","Marta Nahuelqui","Antonio Ramos","Mauricio Reyes","Adán Rivera","Javier Yañez","Karina Saldivia"
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Encargada de Fotocopias:",
+        "profesores": [ "Guillermina Venegas"
+        ]
+    },
+    {
+        "id": 6,
+        "titulo": "Biblioteca:",
+        "profesores": [ "Victoria Diaz"
+        ]
+        
+    },
+    {
+        "id": 7,
+        "titulo": "Adquisiciones SEP:",
+        "profesores": [ "Claudia Tapia", "Daniela Herrera"
+        ]
+        
+    },
+    {
+        "id": 8,
+        "titulo": "Departamento de Informática:",
+        "profesores": [ "Gabriel Figueroa","Víctor Martínez"
+        ]
+        
+    }
+]

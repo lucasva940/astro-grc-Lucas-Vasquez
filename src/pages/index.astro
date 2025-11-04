@@ -1,0 +1,51 @@
+---
+// 1. Importa Layout 
+import Layout from '../layouts/Layout.astro';
+import TarjetaNoticia from '../components/tarjeta.astro';
+---
+
+<Layout title="Página de Inicio">
+  
+  <TarjetaNoticia 
+    titulo="¡Misión Institucional!"
+    linkSaberMas="/htmls/misioninst"
+  >
+    <p class="text-2xl text-black leading-relaxed">
+      Aquí escribes el párrafo resumen de tu Misión Institucional.
+      Es un texto completamente diferente al de "Lorem Ipsum".
+    </p>
+  </TarjetaNoticia>
+
+
+  <TarjetaNoticia 
+    titulo="¡Visión Educacional!"
+    linkSaberMas="/htmls/visionedu"
+  >
+    <p class="text-2xl text-black leading-relaxed">
+      Y aquí puedes poner el resumen de la Visión Educacional.
+      Ves que fácil es reutilizar el componente.
+    </p>
+  </TarjetaNoticia>
+
+
+  <TarjetaNoticia 
+    titulo="Lorem Ipsum"
+    linkSaberMas="/htmls/sabermas/loremIpsum1.html"
+  >
+    <p class="text-2xl text-black leading-relaxed">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis sapien eu nunc interdum,
+      nec consectetur felis molestie. Morbi in scelerisque diam... (etc)
+    </p>
+  </TarjetaNoticia>
+  
+  <TarjetaNoticia 
+    titulo="Lorem Ipsum"
+    linkSaberMas="/htmls/sabermas/loremIpsum1.html"
+  >
+    <p class="text-2xl text-black leading-relaxed">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis sapien eu nunc interdum,
+      nec consectetur felis molestie. Morbi in scelerisque diam... (etc)
+    </p>
+  </TarjetaNoticia>
+
+</Layout>

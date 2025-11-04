@@ -1,0 +1,21 @@
+[
+     {
+        "titulo":"Inspeccion General",
+        "textoconvi": "Los Inspectores generales tienen la responsabilidad de organizar, coordinar, y supervisar el trabajo armónico y eficiente del departamento de Inspectoría, velando porque las actividades del colegio se desarrollen en un ambiente seguro, de disciplina, bienestar y sana convivencia."
+    },
+    {
+    "nombre" : "Eliana de Lourdes Cárdenas Gomez",
+    "ingreso": "04-06-2002",
+    "image": "/imagenes/inspecciongeneral/eliana-c.png"
+},
+{
+    "nombre" : " Isabel Gallegos Oyarzún",
+    "ingreso": "01-03-1999",
+    "image": "imagenes/inspecciongeneral/isabel-g.png"
+},
+{
+    "nombre" : "Mario Alberto Montaner Velásquez",
+    "ingreso": "01-04-1983",
+    "image": "imagenes/inspecciongeneral/mario-m.png"
+}
+]

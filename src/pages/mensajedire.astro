@@ -1,0 +1,21 @@
+---
+import { Image } from "astro:assets";
+import luis from "/public/imagenes/luis/luis.jpg";
+import TarjetaNormal from "../components/tarjetanormal.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+    <TarjetaNormal 
+    titulo="Mensaje de Dirección"
+  >
+    <p class="text-opensans text-black leading-relaxed">
+     Estimada Comunidad Educativa del Liceo Galvarino Riveros Cárdenas; hemos iniciado un nuevo año escolar (2025), con la certeza de los años puedo señalar que tendrá nuevos y mayores desafíos, la educación es dinámica y ha ido cambiando con la sociedad y adaptándose a los tiempos, demostrando a través de sus actores que sigue siendo factor esencial y vital en el quehacer diario de los países y respectivas poblaciones que lo constituyen.
+Tanta evidencia parece trivial, quizás por eso en muchas ocasiones no somos verdaderamente conscientes de los graves daños que provocamos cuando no respetamos reglas, normas, sana convivencia, aportes constructivos o críticas bien intencionadas. Nadie tiene la verdad en educación, porque si así fuera, obviamente ya habríamos evitado múltiples dificultades ocasionadas por los cambios y la adaptación permanente que profesionalmente se nos pide efectuar, no pocas veces con resistencia, pues, estamos obligados a prepararnos continuamente para enfrentar tantas realidades como alumnos y apoderados existen en este Liceo ad portas de su Centenario.
+Debo agregar también que durante los dos años y fracción acompañando desde esta dirección a mis colegas y funcionarios, me he sentido ayudado y apoyado a través de sus funciones, del trabajo desarrollado, del empeño y esfuerzo que cada uno pone con mayor o menor grado en sus labores, siento en cada uno la energía y el orgullo que nos da ser parte de esta familia liceana, con casi cien años de historia, marcando los rumbos de tantas generaciones y contribuyendo al progreso y desarrollo de nuestro país, un país tan especial desde lo geográfico a lo humano.
+Gran familia liceana, nuevamente hemos ido recuperando los lugares que a nivel país nos han destacado como un liceo público con tradición y con trayectoria, con arraigo, valorado y respetado, un liceo público transformador de cambios a nivel personal y a nivel social, producto del trabajo realizado por tantos y tan grandes maestros y profesores, los de antes y los de hoy. Sigamos invariables pero atentos a los cambios que la educación permanentemente nos ofrece como una gran posibilidad de mejora y crecimiento.
+“PENSEMOS EN LA EDUCACION COMO EL MEDIO PARA DESARROLLAR NUESTRAS MAYORES HABILIDADES, YA QUE EN CADA UNO DE NOSOTROS HAY UNA ESPERANZA Y UN SUEÑO QUE, DE CUMPLIRSE, SE TRADUCIRA EN UN BENEFICIO PARA TODOS Y HARA A NUESTRA NACION MAS FUERTE” J.F. KENNEDY.    </p>
+      <Image src={luis} alt="Logo de mi sitio" class="w-150" />
+</TarjetaNormal>
+    
+</Layout> 

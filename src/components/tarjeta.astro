@@ -1,0 +1,41 @@
+---
+interface Props {
+  titulo: string;
+  linkSaberMas: string;
+}
+const { titulo, linkSaberMas } = Astro.props;
+---
+
+<div class="p-8">
+
+  <div class="
+    bg-tarjeta
+    border border-gray-300 rounded-lg 
+    shadow-lg 
+    overflow-hidden 
+    mt-8 mx-auto 
+    max-w-6xl
+  ">
+    <div class="p-3"> 
+      <header class="mb-4">
+        <h3 class="text-2xl font-bold text-black">
+          {titulo} </h3>
+      </header>
+      
+      <slot />
+      
+      <footer class="p-4 text-right"> 
+        <a 
+          href={linkSaberMas} class="
+            inline-block text-blanco bg-azul-oscuro 
+            py-2 px-3 rounded font-bold 
+            transition-colors duration-300 ease-in-out
+            hover:bg-[#2c3e50] cursor-pointer
+          " 
+        >
+          saber mas
+        </a>
+      </footer>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+[
+      {
+        "titulo":"Orientacion",
+        "textoconvi": "La función de este departamento es proporcionar ayuda a los estudiantes, apoderados y profesores facilitando estrategias que colaboren a la adquisición de hábitos positivos, que generen en el ser humano bienestar, armonía y calidad de vida. Profesionales que en su práctica trascienden la transmisión de conocimiento y propicien un acompañamiento continuo del estudiante en su formación y en la atención de necesidades evolutivas, socio emocionales y morales."
+    },
+    {
+    "nombre" : "Sara Ariela Cadiz Hornazabal",
+    "ingreso": "11-03-2004",
+    "imagen": "/public/imagenes/orientacion/sara-c.png"
+},
+{
+    "nombre" : "Marisol Pérez Vesperinas",
+    "ingreso": "11-08-199",
+    "imagen": "/public/imagenes/orientacion/marisol-p.png"
+}
+]

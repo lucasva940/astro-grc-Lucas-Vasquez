@@ -1,0 +1,27 @@
+---
+interface Props {
+  titulo: string;
+}
+const { titulo} = Astro.props;
+---
+
+<div class="p-8">
+
+  <div class="
+    bg-tarjeta
+    border border-gray-300 rounded-lg 
+    shadow-lg 
+    overflow-hidden 
+    mt-8 mx-auto 
+    max-w-6xl
+  ">
+    <div class="p-3"> 
+      <header class="mb-4">
+        <h3 class="text-2xl font-bold text-black">
+          {titulo} </h3>
+      </header>
+      
+      <slot />
+    </div>
+  </div>
+</div>

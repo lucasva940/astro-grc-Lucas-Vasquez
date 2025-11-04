@@ -1,0 +1,26 @@
+[
+    {
+        "titulo":"U.T.P",
+        "textoconvi": "Lo conforman un conjunto de profesionales que se responsabiliza de asesorar al director y de la programación, organización, supervisión y evaluación del desarrollo de las actividades curriculares. Además, supervisar la implementación de los programas en el Aula, asegurar la calidad de las estrategias didácticas, organizar el currículum en relación a los objetivos del PEI, gestionar proyectos de innovación pedagógica, entre otras."
+    },
+  {
+    "nombre": "Delia Karina Diaz Rios",
+    "ingreso": "01-03-2004",
+    "image": "/imagenes/U.T.P/tamara.jpg"
+  },
+  {
+    "nombre": "Erica del Carmen Torres Vargas",
+    "ingreso": "01-10-1986",
+    "image": "/imagenes/U.T.P/erica.png"
+  },
+  {
+    "nombre": "Wilson Rodrigo Bascur Ibarra",
+    "ingreso": "02-03-2009",
+    "image": "/imagenes/U.T.P/wilson-b.png"
+  },
+  {
+    "nombre": "Oscar Reyes Martinez",
+    "ingreso": "01-03-1999",
+    "image": "/imagenes/U.T.P/oscar-r.png"
+  }
+]

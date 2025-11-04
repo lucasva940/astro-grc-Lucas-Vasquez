@@ -1,0 +1,16 @@
+---
+import { Image } from "astro:assets";
+import Itea from "/public/imagenes/I.T.E.A/ITEA.png";
+import TarjetaNormal from "../components/tarjetanormal.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+    <TarjetaNormal 
+    titulo="I.T.E.A">
+    <Image src={Itea} alt="Logo de mi sitio" class="w-150" />
+    <p class="text-2xl text-black leading-relaxed">
+     El día 25 de agosto del 2016 en reunión de Consejo Escolar, Don Mauricio Jelbes Vera, Director del Liceo Galvarino Riveros Cárdenas, dio a conocer el Informe Técnico de Evaluación Anual del Proyecto de Integración Escolar (I.TE.A). En el cual se informa la cantidad de profesionales, horas de contrato y la evaluación de indicadores respecto de la ejecución de Programa de Integración Escolar, la reevaluación de los procesos de aprendizaje considerando las Necesidades Educativas Especiales tanto Transitorias como Permanentes y la capacitación realizada para mejorar las capacidades del establecimiento y la implementación del Programa de Integración Escolar (PIE).  
+</TarjetaNormal>
+    
+</Layout> 
