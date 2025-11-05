@@ -1,51 +1,27 @@
 ---
-// 1. Importa Layout 
+import Tarjeta from '../components/tarjeta.astro';
+import noticiasData from '../data/noticias.json';
 import Layout from '../layouts/Layout.astro';
-import TarjetaNoticia from '../components/tarjeta.astro';
 ---
 
-<Layout title="Página de Inicio">
-  
-  <TarjetaNoticia 
-    titulo="¡Misión Institucional!"
-    linkSaberMas="/htmls/misioninst"
-  >
-    <p class="text-2xl text-black leading-relaxed">
-      Aquí escribes el párrafo resumen de tu Misión Institucional.
-      Es un texto completamente diferente al de "Lorem Ipsum".
-    </p>
-  </TarjetaNoticia>
+<Layout title="Últimas Noticias">
+  <div class="container mx-auto py-12">
+    <h1 class="text-4xl font-bold text-center mb-8">Noticias</h1>
 
-
-  <TarjetaNoticia 
-    titulo="¡Visión Educacional!"
-    linkSaberMas="/htmls/visionedu"
-  >
-    <p class="text-2xl text-black leading-relaxed">
-      Y aquí puedes poner el resumen de la Visión Educacional.
-      Ves que fácil es reutilizar el componente.
-    </p>
-  </TarjetaNoticia>
-
-
-  <TarjetaNoticia 
-    titulo="Lorem Ipsum"
-    linkSaberMas="/htmls/sabermas/loremIpsum1.html"
-  >
-    <p class="text-2xl text-black leading-relaxed">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis sapien eu nunc interdum,
-      nec consectetur felis molestie. Morbi in scelerisque diam... (etc)
-    </p>
-  </TarjetaNoticia>
-  
-  <TarjetaNoticia 
-    titulo="Lorem Ipsum"
-    linkSaberMas="/htmls/sabermas/loremIpsum1.html"
-  >
-    <p class="text-2xl text-black leading-relaxed">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis sapien eu nunc interdum,
-      nec consectetur felis molestie. Morbi in scelerisque diam... (etc)
-    </p>
-  </TarjetaNoticia>
-
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {
+        noticiasData.map((noticia) => (
+          <Tarjeta
+            titulo={noticia.titulo}
+            linkSaberMas={`/noticias/${noticia.id}`} 
+          >
+            {}
+            <div class="p-4">
+              <p class="text-gray-700">{noticia.contenido}</p>
+            </div>
+          </Tarjeta> 
+        ))
+      }
+    </div>
+  </div>
 </Layout>

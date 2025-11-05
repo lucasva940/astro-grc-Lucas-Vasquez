@@ -1,0 +1,38 @@
+---
+import noticiasData from '../../data/noticias.json';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  return noticiasData.map((noticia) => {
+    return {
+      params: { id: noticia.id },
+      props: { noticia: noticia },
+    };
+  });
+}
+
+const { noticia } = Astro.props;
+---
+
+<Layout title={noticia.titulo}>
+  <div class="container mx-auto max-w-4xl p-8">
+
+    <header class="mb-8">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">{noticia.titulo}</h1>
+      </header>
+
+    <article class="prose prose-lg">
+      <p>{noticia.contenido}</p>
+    </article>
+
+    <footer class="mt-12">
+      <a 
+        href="/" 
+        class="inline-block text-whit bg-azul-oscuro py-2 px-4 rounded font-bold transition-colors hover:bg-[#2c3e50]"
+      >
+        &larr; Volver a Noticias
+      </a>
+    </footer>
+
+  </div>
+</Layout>
