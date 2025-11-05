@@ -1,7 +1,7 @@
 este projecto es una pagina web sobre el Liceo Galbarino Riveros de castro.
 
 aqui vera el codigo de este projecto , que cuenta con astro y tailwind:
-.```bash
+```bash
 ├── public/
 │   └── imagenes/       
 ├── src/
