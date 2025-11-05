@@ -2,7 +2,6 @@
 import { Image } from "astro:assets";
 import { ItemMenu } from "../data/itemsmenu"; 
 
-// 2. Rutas de imagen
 import heroImage from "/public/imagenes/hero/frontis-liceo.jpg"; 
 import imageLogo from "/public/imagenes/logo/logo.jpg"; 
 ---
@@ -37,7 +36,7 @@ import imageLogo from "/public/imagenes/logo/logo.jpg";
                 <a href={item.href} class="flex items-center gap-x-1 hover:underline">
                   {item.texto}
                   
-                  {/* Flecha (El <svg> simple) */}
+                  {}
                   {item.subItems && (
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
                       <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 011.06 0L10 11.94l3.72-3.72a.75.75 0 111.06 1.06l-4.25 4.25a.75.75 0 01-1.06 0L5.22 9.28a.75.75 0 010-1.06z" clip-rule="evenodd" />
@@ -45,7 +44,7 @@ import imageLogo from "/public/imagenes/logo/logo.jpg";
                   )}
                 </a>
   
-                {/* Menú desplegable */}
+                {}
                 {item.subItems && (
                   <ul class="
                     absolute top-full left-0 w-56 
