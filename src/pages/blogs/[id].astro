@@ -1,0 +1,18 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCharacters, extractId } from '../../data/RickAndMortyApi.ts'; //aca va tu json
+
+export async function getStaticPaths() {
+    const characters = await getCharacters();
+    
+    return characters.map(character => ({
+        params: { id: extractId(character.image) },
+        props: { character },
+    }));
+}
+
+const { character } = Astro.props;
+---
+<Layout>
+
+</Layout>

@@ -6,11 +6,11 @@
     {
     "nombre" : "Sara Ariela Cadiz Hornazabal",
     "ingreso": "11-03-2004",
-    "imagen": "/public/imagenes/orientacion/sara-c.png"
+    "image": "/imagenes/orientacion/sara-c.png"
 },
 {
     "nombre" : "Marisol Pérez Vesperinas",
     "ingreso": "11-08-199",
-    "imagen": "/public/imagenes/orientacion/marisol-p.png"
+    "image": "/imagenes/orientacion/marisol-p.png"
 }
 ]

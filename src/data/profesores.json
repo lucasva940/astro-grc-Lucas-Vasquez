@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "titulo": "Profesores",
+        "textoAsistentes":"Este estamento se conforma por administrativos, auxiliares de servicio, inspectores y profesionales. Este grupo humano contribuye en la formación personal de los estudiantes del liceo y a los objetivos y principios propuestos en el Proyecto Educativo Institucional.Nuestro establecimiento cuenta con un equipo docente mixto formado por 50 profesores aproximadamente. En ellos recae la responsabilidad de realizar el proceso enseñanza aprendizaje de todos los estudiantes y además acompañar el desarrollo formativo, personal y valórico de estos. Profesionales de alta trayectoria y experiencia que contribuyen al espíritu de equidad y calidad que caracteriza al Liceo.",        
+        "image" : "/imagenes/profesores/Foto-profesores-2.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "Departamento de Lenguaje y Comunicación:",
+        "profesores": [ "Raquel Bórquez","María Isabel Díaz","Ivonne Gómez","Francisco Gómez","Claudia Hernandez"
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Departamento de Educación Física:",
+        "profesores": ["Luis Hernández","Karla Gallegos","Jaime Moretti","Patricio González","Héctor Aguilera"  ]
+    },
+    {
+        "id": 4,
+        "titulo": "Departamento de Historia y Ciencias Sociales:",
+        "profesores": [ "Marcela Almonacid","Fernando Alvarez","Fernando Bórquez","Carmen Garcés","Paola Martínez"
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Departamento de Química:",
+        "profesores": [ "Marcelo Delgado", "Angela Muñoz", "Mirza Valenzuela"
+        ]
+    },
+    {
+        "id": 6,
+        "titulo": "Departamento de Biología:",
+        "profesores": [ "María Angélica Oyarzo", "Tatiana Vera"
+        ]
+        
+    },
+    {
+        "id": 7,
+        "titulo": "Departamento de Física:",
+        "profesores": [ "Rodrigo Barría", "Sebastian Guajardo"
+        ]
+        
+    },
+    {
+        "id": 8,
+        "titulo": "Departamento de Artes Visuales:",
+        "profesores": [ "Víctor Cárdenas","Loreto Ojeda"
+        ]
+        
+    },
+    {
+        "id": 9,
+        "titulo": "Departamento de Educación Tecnológica:",
+        "profesores": [ "Amilcar Estuardo"
+        ]
+        
+    },
+    {
+        "id": 10,
+        "titulo": "Departamento de Artes Músicales:",
+        "profesores": [ "Daniel Bilbao","Alejandra Teiguel"
+        ]
+        
+    },
+    {
+        "id": 11,
+        "titulo": "Departamento de Filosofía:",
+        "profesores": [ "Miguel Gonzalez","Juan Soto"
+        ]
+        
+    },
+    {
+        "id": 12,
+        "titulo": "Departamento de Inglés:",
+        "profesores": [ "Rodrigo Alvarado","Katherine Espinoza", "Alejandra Rocha"
+        ]
+        
+    },
+    {
+        "id": 13,
+        "titulo": "Departamento de Religión:",
+        "profesores": [ "Ximena Gómez"
+        ]
+        
+    }
+]
